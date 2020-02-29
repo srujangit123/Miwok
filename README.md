@@ -1,2 +1,2 @@
 # Miwok
-An app built after watching udacity android course.
+An app built which is built with the help of udacity android course.
