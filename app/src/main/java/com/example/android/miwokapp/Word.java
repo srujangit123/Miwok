@@ -15,21 +15,10 @@ public class Word {
 
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    /**
-     *
-     * @return boolean to check if object has image.
-     */
     public boolean hasImage(){
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
-    /**
-     * Create a new Word object.
-     *
-     * @param defaultTranslation is the word in a language that the user is already familiar with
-     *                           (such as English)
-     * @param miwokTranslation is the word in the Miwok language
-     */
     public Word(String defaultTranslation, String miwokTranslation, int audioId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
@@ -37,8 +26,6 @@ public class Word {
     }
 
 
-
-    //Constructor overloading
     public Word(String defaultTranslation, String miwokTranslation, int imageResourceId, int audioId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
